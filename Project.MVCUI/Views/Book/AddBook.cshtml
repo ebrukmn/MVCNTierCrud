@@ -1,0 +1,41 @@
+﻿@model Tuple<List<Author>, Book>
+@{
+    ViewBag.Title = "AddBook";
+}
+
+<h2>AddBook</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        Enter Book Name:
+    </div>
+    <br />
+    <div>
+        @Html.TextBoxFor(x => x.Item2.Name)
+    </div>
+    <hr />
+    <div>
+        Enter Published Year
+    </div>
+    <br />
+    <div>
+        @Html.TextBoxFor(x => x.Item2.PublishedYear)
+    </div>
+    <hr />
+    <div>
+        Enter it's Author
+    </div>
+    <br />
+    <div>
+        @Html.DropDownListFor(x => x.Item2.AuthorID, new SelectList(Model.Item1, "ID", "GetFullName"), "Please Select...")
+    </div>
+    <hr />
+    <div>If you can not see the author you're searching for above; to add a new author please click here  @Html.ActionLink("Add a New Author", "AddAuthor", "Author", null, new { @class = "btn btn-warning" })</div>
+    <div>
+        <button class="btn btn-success">
+            Add Book
+        </button>
+    </div>
+}
+

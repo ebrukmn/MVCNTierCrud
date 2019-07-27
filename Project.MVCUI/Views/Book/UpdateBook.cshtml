@@ -1,0 +1,42 @@
+﻿@model Tuple<List<Author>, Book>
+@{
+    ViewBag.Title = "UpdateBook";
+}
+
+<h2>UpdateBook</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(x => x.Item2.ID)
+    <div>
+        Enter New Book Name
+    </div>
+    <div>
+        @Html.TextBoxFor(x => x.Item2.Name)
+    </div>
+    <div>
+        Enter New PageCount
+    </div>
+    <div>
+        @Html.TextBoxFor(x => x.Item2.PageCount)
+    </div>
+    <div>
+        Enter New Published Year
+    </div>
+    <div>
+        @Html.TextBoxFor(x => x.Item2.PublishedYear)
+    </div>
+
+    <div>
+        Select New Author
+    </div>
+    <div>
+        @Html.DropDownListFor(x => x.Item2.AuthorID, new SelectList(Model.Item1, "ID", "Name"), "Please Select...")
+    </div>
+    <div>If you can not see the author you're searching for above; to add a new author please click here  @Html.ActionLink("Add a New Author", "AddAuthor", "Author", null, new { @class = "btn btn-warning" })</div>
+    <div>
+        <button class="btn btn-success">
+            Update Book
+        </button>
+    </div>
+}

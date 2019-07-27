@@ -1,0 +1,39 @@
+﻿@model Author
+@{
+  ViewBag.Title = "AddAuthor";
+}
+
+<h2>AddAuthor</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        Enter Author First Name:
+    </div>
+    <br />
+    <div>
+        @Html.TextBoxFor(x => x.Name)
+    </div>
+    <hr />
+    <div>
+        Enter Author Last Name:
+    </div>
+    <br />
+    <div>
+        @Html.TextBoxFor(x => x.LastName)
+    </div>
+    <hr />
+    <div>
+        Enter Age:
+    </div>
+    <br />
+    <div>
+        @Html.TextBoxFor(x => x.Age)
+    </div>
+    <hr />
+    <div>
+        <button class="btn btn-success">
+            Add Author
+        </button>
+    </div>
+}

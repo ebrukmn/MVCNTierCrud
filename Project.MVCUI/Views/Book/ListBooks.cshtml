@@ -1,0 +1,49 @@
+﻿@model List<Book>
+@{
+    ViewBag.Title = "ListBooks";
+}
+
+<h2>ListBooks</h2>
+
+<div>
+    To Add a New Book Please Click Here  @Html.ActionLink("Add a New Book", "AddBook", null, new { @class = "btn btn-success" })
+</div>
+
+<hr />
+
+<div class="panel panel-primary">
+    <div class="panel panel-default">
+        <table class="table table-hover">
+            <tr>
+                <th>
+                    Book Name
+                </th>
+                <th>Published Year</th>
+                <th>Author</th>
+                <th>
+                    Sil
+                </th>
+                <th>Güncelle</th>
+            </tr>
+
+
+
+            @foreach (Book item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.PublishedYear</td>
+                    <td>@item.Author.Name @item.Author.LastName</td>
+                    <td>
+                        @Html.ActionLink("Sil", "DeleteBook", new { id = item.ID }, new { @class = "btn btn-danger" })
+                    </td>
+                    <td>
+                        @Html.ActionLink("Güncelle", "UpdateBook", new { id = item.ID }, new { @class = "btn btn-warning" })
+                    </td>
+                </tr>
+
+
+            }
+        </table>
+    </div>
+</div>

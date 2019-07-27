@@ -1,0 +1,17 @@
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.DAL.dll.config
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.DAL.dll
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.DAL.pdb
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\EntityFramework.dll
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.MAP.dll
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.MODEL.dll
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.MAP.pdb
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.MAP.dll.config
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\Project.MODEL.pdb
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\EntityFramework.xml
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\obj\Debug\Project.DAL.csprojAssemblyReference.cache
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\obj\Debug\Project.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\obj\Debug\Project.DAL.csproj.CopyComplete
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\obj\Debug\Project.DAL.dll
+C:\Users\ebrukaman\Desktop\Tekrar Çalışmalarım\SofttechQuizz\MonoviBilisimMulakatQuiz\Project.DAL\obj\Debug\Project.DAL.pdb

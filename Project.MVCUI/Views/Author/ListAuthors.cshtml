@@ -1,0 +1,51 @@
+﻿@model List<Author>
+@{
+    ViewBag.Title = "ListAuthors";
+}
+
+
+<h2>ListAuthors</h2>
+
+<div>
+    To Add a New Author Please Click Here  @Html.ActionLink("Add a New Author", "AddAuthor", null, new { @class = "btn btn-success" })
+</div>
+
+<br />
+
+<div class="panel panel-primary">
+    <div class="panel panel-default">
+        <table class="table table-hover">
+            <tr>
+                <th>Author First Name</th>
+                <th>Author Last Name</th>
+                <th>Age</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+            </tr>
+
+            @foreach (Author item in Model)
+            {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.LastName</td>
+                @if (item.Age == null)
+                {
+                    <td>Not Specified</td>
+                }
+                else
+                {
+                    <td>@item.Age</td>
+                }
+                <td>
+                    @Html.ActionLink("Sil", "DeleteAuthor", new { id = item.ID }, new { @class = "btn btn-danger" })
+                </td>
+                <td>
+                    @Html.ActionLink("Güncelle", "UpdateProduct", new { id = item.ID }, new { @class = "btn btn-warning" })
+                </td>
+            </tr>
+
+
+            }
+        </table>
+    </div>
+</div>
